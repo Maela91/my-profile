@@ -1,0 +1,204 @@
+/*  General colors and fonts */ 
+body{
+	font-family: 'Quattrocento', serif;
+	color: black;
+	background-color: #DEFCFC;
+	font-size: 17px;
+}
+
+/*container*/
+.container {
+	background-size: cover;
+	display: contents;
+	width: 800px;
+	margin: 40px, auto;
+}
+
+/* cards design*/ 
+.card-grey {
+	width: 700px;
+	padding-top: 20px;
+	margin: 55px auto;
+	padding: 40px;
+	border: 2px solid grey;
+	border-radius: 10px;
+	box-shadow: 0 10px 30px rgb(0,0,.1);
+	background-color: rgb(240, 240, 240);
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.little-card-grey {
+	width: 600px;
+	margin: 55px auto;
+	margin-top: 25px;
+	padding: 20px;
+    padding-top: 5px;
+	border: 2px solid grey;
+	border-radius: 10px;
+	box-shadow: 0 10px 30px rgb(0,0,.1);
+	background-color: rgb(240, 240, 240);
+    text-align: center;
+}
+
+/* Headers*/
+h1, h2, h3 {
+    font-family: 'Lobster Two', cursive;
+    text-align: center;
+    padding-top: none;
+}
+
+h1{
+	font-size: 32px;
+	color: #6D0C74;
+	font-weight: bold;
+}
+
+h2{
+	font-size: 28px;
+	color: #561F55;
+	font-weight: lighter;
+}
+
+h3{
+	font-size: 24px;
+	color: #AA27A4;
+	font-weight: lighter;
+}
+
+/*Links*/
+a{
+	text-decoration: none;
+	color: black;
+}
+
+
+a:hover {
+	text-decoration: none;
+}
+
+/*icons*/
+i { 
+	color: #561F55;
+ }
+
+ #canada{
+ 	color: #AA27A4;
+ }
+
+/*Introduction*/
+.introduction {
+	padding-top: 20px;
+	width: 700px;
+	margin: 55px auto;
+	padding: 40px;
+	border: 2px solid grey;
+	border-radius: 10px;
+	box-shadow: 0 10px 30px rgb(0,0,.1);
+	background-color: rgb(240, 240, 240);
+    text-align: center;
+    padding-top: 15px;
+ }
+
+.introduction p {
+	padding-bottom: 25px;
+}
+
+.btn-grey{
+	background-color: rgba(210,210,210,0.8);
+	color: black;
+	padding: 15px 20px;
+	border-radius: 50px;
+	margin-top: 50px;
+}
+
+.btn-grey:hover {
+	background-color: rgba(200,200,200,1);
+}
+
+#img-profile {
+	border-radius: 50%;
+	text-align: center;
+	width: 159px;	
+	height:179px;
+}
+
+.image-circle { 
+	border-radius: 15px;
+ }
+
+ /*Folllow me*/
+.list-inline {
+list-style: none;
+padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i {
+	font-size: 50px;
+}
+
+.list-inline i:hover {
+	font-size: 50px;
+	color:  rgb(20,20,20);
+}
+
+/*mobile-tablet-laptop versions*/
+@media (max-width: 1080px) {
+	.container {
+		width: 700px;
+	}
+}
+
+@media (max-width: 780px) {
+	.container {
+		width: 550px;
+	}
+}
+
+@media (max-width: 600px) {
+	.container {
+		width: 420px;
+	}
+}
+
+@media (max-width: 1080px) {
+	.card-grey, .introduction {
+		width: 650px;
+	}
+}
+
+@media (max-width: 780px) {
+	.card-grey, .introduction {
+		width: 500px;
+	}
+}
+
+@media (max-width: 600px) {
+	.card-grey, .introduction {
+		width: 460px;
+	}
+}
+
+@media (max-width: 1080px) {
+	.little-card-grey {
+		width: 600px;
+	}
+}
+
+@media (max-width: 780px) {
+	.little-card-grey {
+		width: 450px;
+	}
+}
+
+@media (max-width: 600px) {
+	.little-card-grey {
+		width: 360px;
+	}
+}
